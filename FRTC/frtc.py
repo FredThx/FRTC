@@ -28,8 +28,11 @@ class frtc(pyRPiRTC.DS1302):
 		'''
 		ntpstat = subprocess.Popen("ntpstat")
 		if ntpstat.returncode == 0:
+			logging.info("NTP status : Ok.") 
 			now = datetime.datetime.utcnow()
 			self.write_datetime(now)
-			logging.info("NTP status : Ok. %s writed to DS1302."%(now))
+			logging.info("%s writed to DS1302."%(now))
 		else:
 			logging.info("NTP status : Down.")
+
+			
