@@ -2,6 +2,8 @@
 # -*- coding:utf-8 -*
 from setuptools import setup
 
+import FRTC
+
 setup(
     name='FRTC',
     version=FRTC.__version__,
