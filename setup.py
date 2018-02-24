@@ -8,6 +8,7 @@ import FRTC
 setup(
     name='FRTC',
     version=FRTC.__version__,
+	packages=['FRTC'],
 #	packages=find_packages(),
 	author="FredThx",
 	author_email="FredThx@gmail.com",
