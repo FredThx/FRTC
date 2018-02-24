@@ -14,7 +14,14 @@ FRTC : DS1302 RTC AND NTP
 
 Installation :
      apt-get install ntpstat
+	 git clone https://github.com/sourceperl/rpi.rtc
+	 cd rpi.rtc-master
 	 sudo python setup.py install
+	 cd ..
+	 git clone https://github.com/FredThx/FUTIL
+	 cd FRTC
+	 sudo python setup.py install
+	 
 	 
 Usage :
 	sudo crontab -e -u 
