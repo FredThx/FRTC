@@ -7,7 +7,7 @@ import FRTC
 setup(
     name='FRTC',
     version=FRTC.__version__,
-	packages=find_packages(),
+#	packages=find_packages(),
 	author="FredThx",
 	author_email="FredThx@gmail.com",
 	description="DS1302 and NTP sync on Raspberry pi",
