@@ -20,7 +20,7 @@ import subprocess
 import datetime
 import logging
 
-class frtc(pyRPiRTC):
+class frtc(pyRPiRTC.DS1302):
 	''' ds1302 device
 	'''
 	def write_ntp(self):
