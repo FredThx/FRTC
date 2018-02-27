@@ -12,12 +12,12 @@ Simple Python module (based on rpi.rtc) to sync date and time on a Raspberry Pi 
 * FUTIL		https://github.com/FredThx/FUTIL
 
 ## Installation
-'''
+
  apt-get install ntpstat
  
  git clone https://github.com/sourceperl/rpi.rtc
  
- cd rpi.rtc-master
+ cd rpi.rtc
  
  sudo python setup.py install
  
@@ -25,11 +25,17 @@ Simple Python module (based on rpi.rtc) to sync date and time on a Raspberry Pi 
  
  git clone https://github.com/FredThx/FUTIL
  
+ cd FUTIL
+ 
+ sudo python setup.py install
+ 
+ git clone https://github.com/FredThx/FRTC
+ 
  cd FRTC
  
  sudo python setup.py install
  
- '''
+
 	 
 ## Usage
 	'''
