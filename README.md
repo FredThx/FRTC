@@ -38,9 +38,9 @@ Simple Python module (based on rpi.rtc) to sync date and time on a Raspberry Pi 
 
 	 
 ## Usage
-	'''
-		sudo crontab -e -u 
-	'''
+	
+		sudo crontab -e -u root
+	
 	add "42 * * * * /usr/local/bin/ds1302_ntp_sync"
 	(check time every hour, at minute 42)
 	 	 
